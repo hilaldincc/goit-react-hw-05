@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  gap: 20px;
+  padding: 16px;
+  background-color: #f7ebe8; /* açık nude pembe-bej */
+  border-bottom: 1px solid #d8cfc9; /* yumuşak taupe */
+  margin-bottom: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #6b4f4f; /* sıcak kahve tonu */
+  font-weight: 500;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #a47148; /* altın-kahve tonlu hover efekti */
+}
+
+.active {
+  color: #a47148; /* kahve alt tonlu vurgu */
+  font-weight: 700;
+  border-bottom: 2px solid #a47148;
+  padding-bottom: 2px;
+}

@@ -1,0 +1,26 @@
+.page {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f4f2; /* açık bej arka plan */
+  color: #5c4033; /* mocha kahve yazı rengi */
+  font-family: "Inter", sans-serif;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #a47148; /* altın-kahve tonu */
+  font-weight: bold;
+  padding: 10px 16px;
+  border: 1px solid #d7cfc8; /* soft taupe kenarlık */
+  border-radius: 8px;
+  background-color: #fffaf8; /* açık krem zemin */
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background-color: #f2e3dc; /* yumuşak pembe-bej hover */
+  color: #b86b4b; /* derin kızıl-kahve vurgu */
+  border-color: #b86b4b;
+}

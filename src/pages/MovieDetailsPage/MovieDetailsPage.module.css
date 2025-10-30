@@ -1,0 +1,63 @@
+.page {
+  padding: 20px;
+  background-color: #f9f4f2; /* açık bej arka plan */
+  color: #5c4033; /* mocha kahve yazı rengi */
+  font-family: "Inter", sans-serif;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #a47148; /* sıcak altın-kahve tonu */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.back:hover {
+  color: #b86b4b; /* biraz daha derin kızıl-kahve ton */
+}
+
+.details {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.poster {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(184, 107, 75, 0.2); /* yumuşak gölge */
+}
+
+.info {
+  flex: 1;
+}
+
+.subnav {
+  margin-bottom: 10px;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+
+.link {
+  color: #6b4f4f; /* sıcak kahve tonu */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #a47148; /* altın-kahve hover efekti */
+}
+
+.error {
+  color: #c25050; /* kırmızı yerine toprak alt tonlu sıcak mercan rengi */
+  font-weight: bold;
+}
